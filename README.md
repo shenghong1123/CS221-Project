@@ -1,5 +1,9 @@
 # CS221-Project
 
+### Introduction
+
+Our project leveraged the massive medical image dataset to predict if patient has a heart disease, Cardiomegaly. The whole project is trained and tested on Google Cloud Platform.
+
 ### Data
 
 The dataset is Chexpert dataset from Stanford Machine Learning Group. We downloaded the smaller version and hosted it in Google Cloud Storage.
@@ -34,7 +38,7 @@ them and finally feed into fusion branch
 ### Fusion Branching Training.ipynb
 This notebook simply build a fully connected layer with sigmoid to take concatenated input 
 
-### Evaluation
+### Evaluation.ipynb
 After all of the training on global, local and fusion branch, this notebook will finally evaluate the prediction performance on the test set.
 Inside of it we also visualize the cases where either branch made mistakes so that we can analyze why and how attention helps.
 
