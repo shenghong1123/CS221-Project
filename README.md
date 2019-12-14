@@ -14,9 +14,13 @@ python3 ./data/data_processing.py
 ### Training
 
 ```
-python3 main.py 
-```
+# global model
+python3 main.py ResNet50
 
+# local model (need to run Attention Cropping Experiment.ipynb prior)
+python3 main.py AG-CNN-FINAL
+```
+Fusion branch training is in `Fusion Branching Training.ipynb`
 ### Attention Cropping Experiment.ipynb
 
 This notebook is for the attention area cropping experiment. 
