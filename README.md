@@ -6,7 +6,7 @@ Our project leveraged the massive medical image dataset to predict if patient ha
 
 ### Data
 
-The dataset is Chexpert dataset from Stanford Machine Learning Group. We downloaded the smaller version and hosted it in Google Cloud Storage.
+The dataset is ChexPert dataset from Stanford Machine Learning Group. We downloaded the smaller version and hosted it in Google Cloud Storage. The subset of the whole dataset is stored in `data.zip`
 
 Before launching any job, downloading and processing the csv file of training and validation with:
 
