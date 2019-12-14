@@ -1,10 +1,14 @@
 # CS221-Project
 
 ### Data
+
+The dataset is Chexpert dataset from Stanford Machine Learning Group. We downloaded the smaller version and hosted it in Google Cloud Storage.
+
 Before launching any job, downloading and processing the csv file of training and validation with:
 
 ```
-./data/data_processing.py
+bash ./data/download_data.sh
+python3 ./data/data_processing.py
 ```
 
 ### Training
